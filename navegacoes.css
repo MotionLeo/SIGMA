@@ -1,0 +1,76 @@
+body{
+    font-family: 'Cabin', sans-serif;
+}
+header{
+    border-bottom: 2px solid #535353;
+    margin-bottom: 5px;
+    
+}
+.cabecalho{
+    position: relative;
+    margin: 0 auto auto 30px;
+    
+}
+.img_logo{
+    width: 65px;
+}
+nav{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 30px;
+    
+    
+    text-align: center;
+    vertical-align: top;
+    
+    
+    padding: 10px 50px;
+    box-sizing: border-box;
+    border: 1px solid #535353;
+    border-radius: 10px;
+}
+nav a{
+    color: #000000;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #f1e14e;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-color: #535353;
+}
+.foot_button{
+    margin: 0 auto;
+    padding: 50px;
+}
+.foot_button li{
+    display: inline-block;
+    margin: 0 4%;
+    text-align: center;
+    vertical-align: top;   
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+.foot_button a{
+    color: #000000;
+    text-decoration: none;
+}
+.foot_button a:hover{
+    color: #f1e14e;
+    text-decoration: underline;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
